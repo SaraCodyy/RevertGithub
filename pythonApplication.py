@@ -15,7 +15,7 @@ match input:
         num2 = int(input("Enter second number: "))
         print(f"The sum of {num1} and {num2} is {num1 + num2}")
     case "2":
-        pass
+        print("Random number: " + random.randint(0, 100))
     case "3":
         print("Random word: " + random.choice(["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"]))
     case "4":
